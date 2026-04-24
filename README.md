@@ -14,10 +14,10 @@
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-brgroup--Team/TurnSense-181717?style=for-the-badge&logo=github)]([https://github.com/Bairong-Xdynamics/TurnSense](https://github.com/Bairong-Xdynamics/TurnSense))
+[![GitHub](https://img.shields.io/badge/GitHub-brgroup--Team/TurnSense-181717?style=for-the-badge&logo=github)](https://github.com/Bairong-Xdynamics/TurnSense)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-brgroup--Team-yellow?style=for-the-badge)](https://huggingface.co/brgroup/TurnSense)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)](./LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)]([https://github.com/Bairong-XdynamicsTurnSense](https://github.com/Bairong-Xdynamics/TurnSense))
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](https://github.com/Bairong-Xdynamics/TurnSense)
 
 </div>
 
