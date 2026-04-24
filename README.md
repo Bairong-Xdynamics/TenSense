@@ -14,10 +14,10 @@
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-brgroup--Team/TurnSense-181717?style=for-the-badge&logo=github)]([https://github.com/Bairong-Xdynamics/TurnSense](https://github.com/Bairong-Xdynamics/TenSense))
-[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-brgroup--Team-yellow?style=for-the-badge)](https://huggingface.co/brgroup/TenSense)
+[![GitHub](https://img.shields.io/badge/GitHub-brgroup--Team/TurnSense-181717?style=for-the-badge&logo=github)]([https://github.com/Bairong-Xdynamics/TurnSense](https://github.com/Bairong-Xdynamics/TurnSense))
+[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-brgroup--Team-yellow?style=for-the-badge)](https://huggingface.co/brgroup/TurnSense)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)](./LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)]([https://github.com/Bairong-XdynamicsTurnSense](https://github.com/Bairong-Xdynamics/TenSense))
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)]([https://github.com/Bairong-XdynamicsTurnSense](https://github.com/Bairong-Xdynamics/TurnSense))
 
 </div>
 
@@ -146,7 +146,7 @@ TurnSense 将用户输入划分为三种语义状态：
 | TEN-Turn | **7B**（70 亿） | ❌ | [TEN-framework/TEN_Turn_Detection](https://huggingface.co/TEN-framework/TEN_Turn_Detection) |
 | Easy-Turn | 850M | ❌ | [ASLP-lab/Easy-Turn](https://huggingface.co/ASLP-lab/Easy-Turn) |
 | NAMO-Turn-Detector (ZH) | 66M | ❌ | [videosdk-live/Namo-Turn-Detector-v1-Multilingual](https://huggingface.co/videosdk-live/Namo-Turn-Detector-v1-Multilingual) |
-| **⭐ TurnSense** | **47M** | **✅** | [**Baiji-Team/TurnSense**](https://huggingface.co/brgroup/TenSense) |
+| **⭐ TurnSense** | **47M** | **✅** | [**Baiji-Team/TurnSense**](https://huggingface.co/brgroup/TurnSense) |
 | Smart-Turn-v3 | 8M | ❌ | [pipecat-ai/smart-turn-v3](https://huggingface.co/pipecat-ai/smart-turn-v3) |
 | FireRedChat-turn-detector | -- | ❌ | [FireRedTeam/FireRedChat-turn-detector](https://huggingface.co/FireRedTeam/FireRedChat-turn-detector) |
 
@@ -229,7 +229,7 @@ pip install -U numpy onnxruntime torch librosa soundfile pandas scikit-learn hug
 
 ### 2. 获取模型权重
 
-TurnSense 模型权重已发布在 Hugging Face：[Baiji-Team/TurnSense](https://huggingface.co/brgroup/TenSense)
+TurnSense 模型权重已发布在 Hugging Face：[Baiji-Team/TurnSense](https://huggingface.co/brgroup/TurnSense)
 
 | 版本 | 体积 | 适用场景 |
 | :--- | :--- | :--- |
@@ -245,7 +245,7 @@ TurnSense 模型权重已发布在 Hugging Face：[Baiji-Team/TurnSense](https:/
 
 ```bash
 git lfs install
-git clone https://huggingface.co/brgroup/TenSense
+git clone https://huggingface.co/brgroup/TurnSense
 ```
 
 **方式三：Hugging Face Hub**
@@ -336,7 +336,7 @@ python TurnSense/Turn_benchmark/benchmark.py
   title        = {TurnSense: A Three-Class Semantic Detection Model for Complete, Incomplete, and Invalid Utterances},
   year         = {2026},
   publisher    = {Hugging Face},
-  howpublished = {\url{https://huggingface.co/brgroup/TenSense}},
+  howpublished = {\url{https://huggingface.co/brgroup/TurnSense}},
 }
 ```
 
@@ -352,7 +352,7 @@ python TurnSense/Turn_benchmark/benchmark.py
 | :--- | :--- |
 | 📧 邮箱 | [huan.shen@brgroup.com](mailto:huan.shen@brgroup.com) ・ [yingao.wang@brgroup.com](mailto:yingao.wang@brgroup.com) ・ [wei.zou@brgroup.com](mailto:wei.zou@brgroup.com) |
 | 💬 微信 | h2538406363 |
-| 👥 微信群聊 | 扫码加入群聊<br><img src="TenSense/TenSense/image/wechat.jpg" alt="微信群聊二维码" width="220" /> |
+| 👥 微信群聊 | 扫码加入群聊<br><img src="TurnSense/TurnSense/image/wechat.jpg" alt="微信群聊二维码" width="220" /> |
 | 🐛 Issues | [GitHub Issues](https://github.com/Bairong-Xdynamics/TurnSense/issues) |
 | 🔀 PR | [Pull Requests](https://github.com/Bairong-Xdynamics/TurnSense/pulls) |
 
