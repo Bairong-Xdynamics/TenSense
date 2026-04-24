@@ -1,6 +1,9 @@
+---
+license: apache-2.0
+---
 <div align="center">
 
-<img src="./image/Baiji_Team.png" alt="Baiji Team Logo" width="1000" height="500"/>
+<img src="./image/Baiji_Team.png" alt="Baiji Team Logo" width="1000" height="450"/>
 
 <br/>
 
@@ -10,20 +13,21 @@
 
 <br/>
 
-<center><strong>47M Parameters ｜ CPU Latency ~55ms ｜ F1 up to 96.35% ｜ Invalid Utterance Filtering</strong></center>
+<center><strong>47M 参数 ｜ CPU 延迟 ~55ms ｜ F1 高达 96.35% ｜ 无效语义过滤</strong></center>
+
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Baiji--Team/TurnSense-181717?style=for-the-badge&logo=github)](https://github.com/Baiji-Team/TurnSense)
-[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Baiji--Team-yellow?style=for-the-badge)](https://huggingface.co/Baiji-Team/TurnSense)
+[![GitHub](https://img.shields.io/badge/GitHub-brgroup--Team/TurnSense-181717?style=for-the-badge&logo=github)](https://github.com/Bairong-Xdynamics/TurnSense)
+[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-brgroup--Team-yellow?style=for-the-badge)](https://huggingface.co/brgroup/TenSense)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)](./LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](https://github.com/Baiji-Team/TurnSense)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](https://github.com/Bairong-Xdynamics/TurnSense)
 
 </div>
 
 <br/>
 
-**Language**: **English** | [中文](./README.md)
+**Language**: **English** | [中文](./README_zh.md)
 
 <br/>
 
@@ -146,7 +150,7 @@ Standardized repository structure with FP32 / INT8 ONNX models — from installa
 | TEN-Turn | **7B** | ❌ | [TEN-framework/TEN_Turn_Detection](https://huggingface.co/TEN-framework/TEN_Turn_Detection) |
 | Easy-Turn | 850M | ❌ | [ASLP-lab/Easy-Turn](https://huggingface.co/ASLP-lab/Easy-Turn) |
 | NAMO-Turn-Detector (ZH) | 66M | ❌ | [videosdk-live/Namo-Turn-Detector-v1-Multilingual](https://huggingface.co/videosdk-live/Namo-Turn-Detector-v1-Multilingual) |
-| **⭐ TurnSense** | **47M** | **✅** | [**Baiji-Team/TurnSense**](https://huggingface.co/Baiji-Team/TurnSense) |
+| **⭐ TurnSense** | **47M** | **✅** | [**Baiji-Team/TurnSense**](https://huggingface.co/brgroup/TenSense) |
 | Smart-Turn-v3 | 8M | ❌ | [pipecat-ai/smart-turn-v3](https://huggingface.co/pipecat-ai/smart-turn-v3) |
 | FireRedChat-turn-detector | -- | ❌ | [FireRedTeam/FireRedChat-turn-detector](https://huggingface.co/FireRedTeam/FireRedChat-turn-detector) |
 
@@ -221,7 +225,7 @@ Standardized repository structure with FP32 / INT8 ONNX models — from installa
 ### 1. Installation
 
 ```bash
-git clone https://github.com/Baiji-Team/TurnSense.git
+git clone https://github.com/Bairong-Xdynamics/TurnSense.git
 cd TurnSense
 
 pip install -U numpy onnxruntime torch librosa soundfile pandas scikit-learn huggingface_hub
@@ -229,7 +233,7 @@ pip install -U numpy onnxruntime torch librosa soundfile pandas scikit-learn hug
 
 ### 2. Model Weights
 
-TurnSense model weights are available on Hugging Face: [Baiji-Team/TurnSense](https://huggingface.co/Baiji-Team/TurnSense)
+TurnSense model weights are available on Hugging Face: [Baiji-Team/TurnSense](https://huggingface.co/brgroup/TenSense)
 
 | Version | Size | Use Case |
 | :--- | :--- | :--- |
@@ -245,14 +249,14 @@ The inference script includes built-in Hugging Face download logic. The model wi
 
 ```bash
 git lfs install
-git clone https://huggingface.co/Baiji-Team/TurnSense
+git clone https://huggingface.co/brgroup/TenSense
 ```
 
 **Option 3: Hugging Face Hub**
 
 ```python
 from huggingface_hub import snapshot_download
-snapshot_download(repo_id="Baiji-Team/TurnSense")
+snapshot_download(repo_id="brgroup/TurnSense")
 ```
 
 ### 3. Inference
@@ -264,7 +268,7 @@ python infer.py
 Example output:
 
 ```
-Loading model from Baiji-Team/TurnSense...
+Loading model from brgroup/TurnSense...
 Running inference on: "我想问一下那个订单就是昨天..."
 
 Results:
@@ -336,7 +340,7 @@ If you use TurnSense in your research or product, please cite:
   title        = {TurnSense: A Three-Class Semantic Detection Model for Complete, Incomplete, and Invalid Utterances},
   year         = {2026},
   publisher    = {Hugging Face},
-  howpublished = {\url{https://huggingface.co/Baiji-Team/TurnSense}},
+  howpublished = {\url{https://huggingface.co/brgroup/TenSense}},
 }
 ```
 
@@ -350,9 +354,9 @@ If you have questions or suggestions, feel free to reach out:
 | :--- | :--- |
 | 📧 Email | [huan.shen@brgroup.com](mailto:huan.shen@brgroup.com) · [yingao.wang@brgroup.com](mailto:yingao.wang@brgroup.com) · [wei.zou@brgroup.com](mailto:wei.zou@brgroup.com) |
 | 💬 WeChat | h2538406363 |
-| 👥 WeChat Group | Scan the QR code to join the group<br><img src="image/wechat.jpg" alt="WeChat group QR code" width="220" /> |
-| 🐛 Issues | [GitHub Issues](https://github.com/Baiji-Team/TurnSense/issues) |
-| 🔀 PR | [Pull Requests](https://github.com/Baiji-Team/TurnSense/pulls) |
+| 👥 WeChat Group | Scan the QR code to join the group<br><img src="TenSense/TenSense/image/wechat.jpg" alt="WeChat group QR code" width="220" /> |
+| 🐛 Issues | [GitHub Issues](https://github.com/Bairong-Xdynamics/TurnSense/issues) |
+| 🔀 PR | [Pull Requests](https://github.com/Bairong-Xdynamics/TurnSense/pulls) |
 
 <br/>
 
@@ -366,6 +370,6 @@ This project is released under the **Apache License 2.0** with certain additiona
 
 <div align="center">
 
-**Built with ❤️ by [Baiji Team](https://github.com/Baiji-Team)**
+**Built with ❤️ by [Baiji Team](https://github.com/Bairong-Xdynamics)**
 
 </div>
