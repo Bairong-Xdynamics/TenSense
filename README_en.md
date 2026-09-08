@@ -406,7 +406,7 @@ If you have questions or suggestions, feel free to contact us through the follow
 | :--- | :--- |
 | 📧 Email | [huan.shen@brgroup.com](mailto:huan.shen@brgroup.com) ・ [yingao.wang@brgroup.com](mailto:yingao.wang@brgroup.com) ・ [wei.zou@brgroup.com](mailto:wei.zou@brgroup.com) |
 | 💬 WeChat | h2538406363 |
-| 👥 WeChat Group | Scan the QR code to join the group<br><img src="image/wechat.jpg" alt="WeChat group QR code" width="220" /> |
+| 👥 WeChat Group | Scan the QR code to join the group<br><img src="image/wechat.png" alt="WeChat group QR code" width="220" /> |
 | 🐛 Issues | [GitHub Issues](https://github.com/Bairong-Xdynamics/TurnSense/issues) |
 | 🔀 PR | [Pull Requests](https://github.com/Bairong-Xdynamics/TurnSense/pulls) |
 
